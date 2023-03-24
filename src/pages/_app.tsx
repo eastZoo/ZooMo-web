@@ -14,7 +14,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <ThemeProvider theme={theme}>
-        {isWindowWidth < 769 ? <MobileHeader /> : <Header />}
+        {/* {isWindowWidth < 769 ? <MobileHeader /> : <Header />} */}
+        <Header />
         <Nav />
         <Component {...pageProps} />
         <Footer />

@@ -1,0 +1,10 @@
+//달력 라이브러리 참고
+https://fullcalendar.io/docs/vertical-resource-view
+
+
+
+# 기능 구현
+- 메인화면에 선택 버튼 3개정도
+    - 달력
+    - 메모
+    - 북마크( 카테고리 별 공부 도움)
