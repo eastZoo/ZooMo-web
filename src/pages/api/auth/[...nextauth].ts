@@ -40,9 +40,6 @@ const authOptions: NextAuthOptions = {
       return session;
     },
   },
-  session: {
-    strategy: "jwt",
-  },
 
   pages: {
     signIn: "/login",
